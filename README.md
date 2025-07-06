@@ -15,23 +15,43 @@
 ### Data
 
 * Data:
-  * Type: Tabular Dataset
+  * **Type**: Tabular Dataset
     * Input: Train and Test CSV file with 25 features including flight and service metrics
     * Target: Binary satisfaction label (**0** = neutral/dissatisfied, **1** = satisfied)
-  * Size:
-    * Training set: 103,904 instances
-    * Test set: 25,976 instances
+  * **Size**:
+    * Training set: 103,904 rows and 25 columns
+    * Test set: 25,976 rows and 25 columns
+      
 #### Data Cleaning
 
-* Handle missing values:
-    * Numerical columns:
+* Handle missing values
+    * **Numerical columns**:
        * Filled missing values in **Arrival Delay in Minutes** with **median**
-    * Categorical columns:
-       * Dataset did not contain missing values in categorical columns, no imputation needed 
+    * **Categorical columns**:
+       * Dataset did not contain missing values in categorical columns, no imputation needed
 
-#### Preprocessing / Clean up
+* Handle outliers
+    * **Numerical Columns Processesed**:
+       * Age, Flight Distance, Arrival Delay in Minutes, Departure Delay in Minutes
+    * Replace outliers using **upper and lower bounds** computed from IQR
+    * Visualized impact using **box-plots** before and after handling
 
-* Describe any manipulations you performed to the data.
+#### Preprocessing
+
+* **Derived Features**
+  * Create new feature:
+    * Delay Difference = Arrival Delay in Minutes - Departure Delay in Minutes
+      
+* **Feature Removal**
+  * Dropped highly correlated features:
+    * Inflight wifi service and Arrival Delay in Minutes
+
+* **Feature Scaling and Encoding**
+  * Numerical columns:
+    * Applied **StandardScaler()** to normalize all numeric features for regression models
+   
+  * Categorical columns:
+    * Applied **OneHotEncoder** for categorical features (e.g., Gender, Customer Type, Type of Travel, etc.)
 
 #### Data Visualization
 
