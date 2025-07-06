@@ -21,6 +21,13 @@
   * Size:
     * Training set: 103,904 instances
     * Test set: 25,976 instances
+#### Data Cleaning
+
+* Handle missing values:
+    * Numerical columns:
+       * Filled missing values in **Arrival Delay in Minutes** with **median**
+    * Categorical columns:
+       * Dataset did not contain missing values in categorical columns, no imputation needed 
 
 #### Preprocessing / Clean up
 
