@@ -8,7 +8,7 @@
 
   * **Definition of the tasks / challenge**: The task is to predict whether a passenger is satisfied with their flight experience based on various numerical and categorical features (e.g., flight distance, service ratings, delays). I formulated this as a binary classification problem.
   * **My approach**: The approach involved extensive preprocessing (handling missing values, outliers, and encoding categorical features), feature scaling, and applying both baseline models (Logistic Regression, KNN) and advanced classifiers (Random Forest, XGBoost). Hyperparameter tuning via GridSearchCV was used to improve performance.
-  * **Summary of the performance achieved**: The best-performing models—Random Forest and XGBoost—achieved up to 94% accuracy on both internal and external test sets, with strong F1-scores and AUC values, highlighting their effectiveness in this setting.
+  * **Summary of the performance achieved**: The best-performing models—**Random Forest and XGBoost**—achieved up to 94% accuracy on both internal and external test sets, with strong F1-scores and AUC values, highlighting their effectiveness in this setting.
 
 ## Summary of Workdone
 
