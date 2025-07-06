@@ -15,11 +15,12 @@
 ### Data
 
 * Data:
-  * Type: For example
-    * Input: medical images (1000x1000 pixel jpegs), CSV file: image filename -> diagnosis
-    * Input: CSV file of features, output: signal/background flag in 1st column.
-  * Size: How much data?
-  * Instances (Train, Test, Validation Split): how many data points? Ex: 1000 patients for training, 200 for testing, none for validation
+  * Type: Tabular Dataset
+    * Input: Train and Test CSV file with 25 features including flight and service metrics
+    * Target: Binary satisfaction label (**0** = neutral/dissatisfied, **1** = satisfied)
+  * Size:
+    * Training set: 103,904 instances
+    * Test set: 25,976 instances
 
 #### Preprocessing / Clean up
 
