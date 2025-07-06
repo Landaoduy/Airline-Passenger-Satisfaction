@@ -6,14 +6,11 @@
 
 ## Overview
 
-* This section could contain a short paragraph which include the following:
-  * **Definition of the tasks / challenge**  Ex: The task, as defined by the Kaggle challenge is to use a time series of 12 features, sampled daily for 1 month, to predict the next day's price of a stock.
-  * **Your approach** Ex: The approach in this repository formulates the problem as regression task, using deep recurrent neural networks as the model with the full time series of features as input. We compared the performance of 3 different network architectures.
-  * **Summary of the performance achieved** Ex: Our best model was able to predict the next day stock price within 23%, 90% of the time. At the time of writing, the best performance on Kaggle of this metric is 18%.
+  * **Definition of the tasks / challenge**: The task is to predict whether a passenger is satisfied with their flight experience based on various numerical and categorical features (e.g., flight distance, service ratings, delays). I formulated this as a binary classification problem.
+  * **My approach**: The approach involved extensive preprocessing (handling missing values, outliers, and encoding categorical features), feature scaling, and applying both baseline models (Logistic Regression, KNN) and advanced classifiers (Random Forest, XGBoost). Hyperparameter tuning via GridSearchCV was used to improve performance.
+  * **Summary of the performance achieved**: The best-performing models—Random Forest and XGBoost—achieved up to 94% accuracy on both internal and external test sets, with strong F1-scores and AUC values, highlighting their effectiveness in this setting.
 
 ## Summary of Workdone
-
-Include only the sections that are relevant an appropriate.
 
 ### Data
 
