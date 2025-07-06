@@ -48,7 +48,7 @@
 
 * **Feature Scaling and Encoding**
   * Numerical columns:
-    * Applied **StandardScaler()** to normalize all numeric features for regression models
+    * Applied **StandardScaler** to normalize all numeric features for regression models
    
   * Categorical columns:
     * Applied **OneHotEncoder** for categorical features (e.g., Gender, Customer Type, Type of Travel, etc.)
