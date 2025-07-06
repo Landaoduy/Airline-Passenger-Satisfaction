@@ -1,4 +1,4 @@
-![](UTA-DataScience-Logo.png)
+
 
 # Airline-Passenger-Satisfaction
 * **One Sentence Summary** Ex: This repository holds an attempt to apply LSTMs to Stock Market using data from
