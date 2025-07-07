@@ -98,7 +98,8 @@ Show a few visualization of the data and say a few words about what you see.
 | Random Forest       | 94%      | 0.94      | 0.92   | 0.93     | 0.99 |
 | XGBoost             | 94%      | 0.95      | 0.92   | 0.93     | 0.99 |
 
-![image](https://github.com/user-attachments/assets/dfcce4b0-8088-4cd6-bd89-af64f210bb19)
+![image](https://github.com/user-attachments/assets/dfcce4b0-8088-4cd6-bd89-af64f210bb19) ![image](https://github.com/user-attachments/assets/953804b3-1c78-4c6b-84a1-61c039554592)
+
 
 ### Conclusions
 
