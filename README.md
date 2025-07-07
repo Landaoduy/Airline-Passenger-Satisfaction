@@ -93,11 +93,12 @@ Show a few visualization of the data and say a few words about what you see.
 
 | Model               | Accuracy | Precision | Recall | F1-Score | AUC  |
 | ------------------- | -------- | --------- | ------ | -------- | ---- |
-| Logistic Regression | 87%      | 0.87      | 0.82   | 0.84     | 0.91 |
-| KNN                 | 92%      | 0.93      | 0.87   | 0.90     | 0.95 |
-| Random Forest       | 94%      | 0.94      | 0.92   | 0.93     | 0.97 |
-| XGBoost             | 94%      | 0.95      | 0.92   | 0.93     | 0.97 |
+| Logistic Regression | 87%      | 0.87      | 0.82   | 0.84     | 0.92 |
+| KNN                 | 92%      | 0.93      | 0.87   | 0.90     | 0.97 |
+| Random Forest       | 94%      | 0.94      | 0.92   | 0.93     | 0.99 |
+| XGBoost             | 94%      | 0.95      | 0.92   | 0.93     | 0.99 |
 
+![image](https://github.com/user-attachments/assets/dfcce4b0-8088-4cd6-bd89-af64f210bb19)
 
 ### Conclusions
 
