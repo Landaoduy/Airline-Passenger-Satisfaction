@@ -80,8 +80,14 @@ Show a few visualization of the data and say a few words about what you see.
     * **XGBoost**
       * **Parameters**: n_estimators, max_depth, learning_rate, subsample, colsample_bytree, eval_metric, random_state
      
-  * **Losss/Optimization**
+  * **Loss/Optimization**
     * GridSearchCV for tuning hyperparameters
+
+  * **Evaluation Metrics**
+    * Confusion Metrics
+    * Classification Report (Accuracy, Precision, Recall, F1-Score)
+    * ROC-AUC Curve
+    * Use Test.csv as external test set to compare with internal test set (train split)
      
 ### Training
 * **Environment**
