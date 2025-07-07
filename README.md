@@ -67,38 +67,27 @@ Show a few visualization of the data and say a few words about what you see.
   * **Output**
     * Binary classification (satisfaction)
       
-  * **Models**
+  * **Models Used**
     * **Logistic Regression**
-      * **Parameters**:
-        * C
-        * penalty
-        * solver
-        * max_iter
+      * **Parameters**: C, penalty, solver, max_iter
 
-    * **KNN**:
-      * **Parameters**:
-        * n_neighbors
-        * weights
-        * p
-       
-    * **Random Forest**:
-      * **Parameters**:
-        * n_estimators
-        * max_depth
-        * min_samples_split
-        * min_samples leaf
-        * max_features
-        * bootstrap
-        * random_state
+    * **KNN**
+      * **Parameters**: n_neighbors, weights, p
+        
+    * **Random Forest**
+      * **Parameters**: n_estimators, max_depth, min_samples_split, min_samples leaf, max_features, bootstrap, random_state
 
+    * **XGBoost**
+      * **Parameters**: n_estimators, max_depth, learning_rate, subsample, colsample_bytree, eval_metric, random_state
+     
+  * **Losss/Optimization**
+    * GridSearchCV for tuning hyperparameters
+     
 ### Training
-
-* Describe the training:
-  * How you trained: software and hardware.
-  * How did training take.
-  * Training curves (loss vs epoch for test/train).
-  * How did you decide to stop training.
-  * Any difficulties? How did you resolve them?
+* **Environment**
+  * Google Colab (Python, Scikit-learn, XGBoost)
+  * All models trained using 80-20 split with 3-fold cross-validation during tuning
+  * Training was efficient due to model simplicity and modest dataset size
 
 ### Performance Comparison
 
