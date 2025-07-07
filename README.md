@@ -109,9 +109,7 @@
 | XGBoost             | 94%      | 0.95      | 0.92   | 0.93     | 0.99 |
 
 ![image](https://github.com/user-attachments/assets/dfcce4b0-8088-4cd6-bd89-af64f210bb19) 
-![image](https://github.com/user-attachments/assets/f3f6f159-73fd-48c2-b5cc-31a1bce206a2)
-
-
+![image](https://github.com/user-attachments/assets/7250f670-5880-4c6f-a5da-ce807a770918)
 ![image](https://github.com/user-attachments/assets/c90829a4-234f-46e8-a182-c9c2ccfe41e8)
 
 ### Conclusions
