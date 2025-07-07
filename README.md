@@ -91,9 +91,13 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Performance Comparison
 
-* Clearly define the key performance metric(s).
-* Show/compare results in one table.
-* Show one (or few) visualization(s) of results, for example ROC curves.
+| Model               | Accuracy | Precision | Recall | F1-Score | AUC  |
+| ------------------- | -------- | --------- | ------ | -------- | ---- |
+| Logistic Regression | 87%      | 0.87      | 0.82   | 0.84     | 0.91 |
+| KNN                 | 92%      | 0.93      | 0.87   | 0.90     | 0.95 |
+| Random Forest       | 94%      | 0.94      | 0.92   | 0.93     | 0.97 |
+| XGBoost             | 94%      | 0.95      | 0.92   | 0.93     | 0.97 |
+
 
 ### Conclusions
 
