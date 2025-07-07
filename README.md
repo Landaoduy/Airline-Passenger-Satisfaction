@@ -109,17 +109,15 @@ Show a few visualization of the data and say a few words about what you see.
 
 ![image](https://github.com/user-attachments/assets/c90829a4-234f-46e8-a182-c9c2ccfe41e8)
 
-
-
-
 ### Conclusions
-
-* State any conclusions you can infer from your work. Example: LSTM work better than GRU.
+* XGBoost and Random Forest significantly outperformed simpler models like KNN and Logistic Regression
+* Data Cleaning, Feature engineering, Data Preprocessing played a critical role
+* Ratings for services like Online Boarding, Type of Travel, Seat Class were among the most influential features
 
 ### Future Work
-
-* What would be the next thing that you would try.
-* What are some other studies that can be done starting from here.
+* Try ensemble stacking or boosting with meta-models
+* Integrate additional external datasets (e.g., weather or route delays)
+* Experiment with deep learning models (e.g., neural networks)
 
 ## How to reproduce results
 
@@ -128,23 +126,6 @@ Show a few visualization of the data and say a few words about what you see.
    * Apply this package to other data. For example, how to use the model you trained.
    * Use this package to perform their own study.
 * Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
-
-### Overview of files in repository
-
-* Describe the directory structure, if any.
-* List all relavent files and describe their role in the package.
-* An example:
-  * utils.py: various functions that are used in cleaning and visualizing data.
-  * preprocess.ipynb: Takes input data in CSV and writes out data frame after cleanup.
-  * visualization.ipynb: Creates various visualizations of the data.
-  * models.py: Contains functions that build the various models.
-  * training-model-1.ipynb: Trains the first model and saves model during training.
-  * training-model-2.ipynb: Trains the second model and saves model during training.
-  * training-model-3.ipynb: Trains the third model and saves model during training.
-  * performance.ipynb: loads multiple trained models and compares results.
-  * inference.ipynb: loads a trained model and applies it to test data to create kaggle submission.
-
-* Note that all of these notebooks should contain enough text for someone to understand what is happening.
 
 ### Software Setup
 * List all of the required packages.
