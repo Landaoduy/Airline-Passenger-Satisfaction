@@ -59,11 +59,37 @@ Show a few visualization of the data and say a few words about what you see.
 
 ### Problem Formulation
 
-* Define:
-  * Input / Output
-  * Models
-    * Describe the different models you tried and why.
-  * Loss, Optimizer, other Hyperparameters.
+  * **Input**
+    * Scaled numerical features and Encoded categorical features for baseline regression models
+      
+    * Original numerical features and Encoded categorical features for advanced tree-based models
+      
+  * **Output**
+    * Binary classification (satisfaction)
+      
+  * **Models**
+    * **Logistic Regression**
+      * **Parameters**:
+        * C
+        * penalty
+        * solver
+        * max_iter
+
+    * **KNN**:
+      * **Parameters**:
+        * n_neighbors
+        * weights
+        * p
+       
+    * **Random Forest**:
+      * **Parameters**:
+        * n_estimators
+        * max_depth
+        * min_samples_split
+        * min_samples leaf
+        * max_features
+        * bootstrap
+        * random_state
 
 ### Training
 
