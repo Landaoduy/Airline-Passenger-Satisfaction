@@ -55,7 +55,7 @@
 
 #### Data Visualization
 ![image](https://github.com/user-attachments/assets/3393b2d3-ab7a-424b-bdf8-8f127b222f90)
-![image](https://github.com/user-attachments/assets/1f16dc05-6dd0-4f1a-a8ed-53f0566bcfa4)
+![image](https://github.com/user-attachments/assets/d84fb2b4-b578-4437-9005-cef13ea79b9d)
 ![image](https://github.com/user-attachments/assets/80f44a05-6681-43f2-a200-0f4a86b14447)
 
 
@@ -109,7 +109,8 @@
 | XGBoost             | 94%      | 0.95      | 0.92   | 0.93     | 0.99 |
 
 ![image](https://github.com/user-attachments/assets/dfcce4b0-8088-4cd6-bd89-af64f210bb19) 
-![image](https://github.com/user-attachments/assets/953804b3-1c78-4c6b-84a1-61c039554592)
+![image](https://github.com/user-attachments/assets/f3f6f159-73fd-48c2-b5cc-31a1bce206a2)
+
 
 ![image](https://github.com/user-attachments/assets/c90829a4-234f-46e8-a182-c9c2ccfe41e8)
 
