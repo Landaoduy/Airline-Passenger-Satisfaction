@@ -54,9 +54,15 @@
     * Applied **OneHotEncoder** for categorical features (e.g., Gender, Customer Type, Type of Travel, etc.)
 
 #### Data Visualization
+
+**Satisfaction Distribution Pie Chart**
 ![image](https://github.com/user-attachments/assets/3393b2d3-ab7a-424b-bdf8-8f127b222f90)
+* The dataset is **slightly imbalanced**
+  * 56.7% of passengers classified as **"Neutral or Dissatisfied"**
+  * 43.3% classified as **"Satisfied"**
 ![image](https://github.com/user-attachments/assets/d84fb2b4-b578-4437-9005-cef13ea79b9d)
-![image](https://github.com/user-attachments/assets/80f44a05-6681-43f2-a200-0f4a86b14447)
+![image](https://github.com/user-attachments/assets/f98c0f33-6b5a-4736-8a29-ad690346861c)
+
 
 
 
