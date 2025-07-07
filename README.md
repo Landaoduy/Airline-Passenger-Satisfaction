@@ -120,18 +120,31 @@ Show a few visualization of the data and say a few words about what you see.
 * Experiment with deep learning models (e.g., neural networks)
 
 ## How to reproduce results
+* **Setup**
+  * Recommend: Google Colab, Jupyter Notebook, VSCode
+  * The code runs efficiently on standard CPU hardware
 
-* In this section, provide instructions at least one of the following:
-   * Reproduce your results fully, including training.
-   * Apply this package to other data. For example, how to use the model you trained.
-   * Use this package to perform their own study.
-* Also describe what resources to use for this package, if appropirate. For example, point them to Collab and TPUs.
-
+* **Steps**
+  1. Download dataset from Kaggle
+  2. Unzip and place in working directory
+  3. Run the **airline_passenger_satisfaction.ipynb** to:
+     * Preprocess data
+     * View visualizations
+     * Train and evaluate models
+       
 ### Software Setup
-* List all of the required packages.
-* If not standard, provide or point to instruction for installing the packages.
-* Describe how to install your package.
+* **Required packages**
+  * Pandas, NumPy, Scikit-learn, XGBoost, matplotlib, seaborn
 
+* **Installing packages in Jupyter/Colab**
+  * ```sh
+    !pip install pandas
+    !pip install numpy
+    !pip install scikit-learn
+    !pip install xgboost
+    !pip install matplotlib
+    !pip install seaborn
+    ``` 
 ### Data
 
 * Point to where they can download the data.
