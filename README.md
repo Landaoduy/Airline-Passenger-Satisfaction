@@ -56,17 +56,23 @@
 #### Data Visualization
 
 **Satisfaction Distribution Pie Chart**
-![image](https://github.com/user-attachments/assets/3393b2d3-ab7a-424b-bdf8-8f127b222f90)
 * The dataset is **slightly imbalanced**
   * 56.7% of passengers classified as **"Neutral or Dissatisfied"**
   * 43.3% classified as **"Satisfied"**
+![image](https://github.com/user-attachments/assets/3393b2d3-ab7a-424b-bdf8-8f127b222f90)
+
+**Flight Distance vs Type of Travel by Class**
+* In Business Class, passengers on business travel tend to take longer flights and are more likely to be satisfied.
+
+* Eco and Eco Plus show relatively balanced satisfaction levels for both travel types, but with shorter flight distances overall.
 ![image](https://github.com/user-attachments/assets/d84fb2b4-b578-4437-9005-cef13ea79b9d)
+
+**Arrival vs Departure Delay Scatterplot (by Satisfaction)**
 ![image](https://github.com/user-attachments/assets/f98c0f33-6b5a-4736-8a29-ad690346861c)
-
-
-
-
-
+* This plot shows a positive correlation between arrival and departure delays
+* Most delays are clustered below 400 minutes, with extreme outliers up to 1500+ minutes.
+* Dissatisfied passengers (class 0) are more frequent in high-delay zones, suggesting delay could contribute to dissatisfaction.
+  
 ### Problem Formulation
 
   * **Input**
