@@ -54,8 +54,12 @@
     * Applied **OneHotEncoder** for categorical features (e.g., Gender, Customer Type, Type of Travel, etc.)
 
 #### Data Visualization
+![image](https://github.com/user-attachments/assets/3393b2d3-ab7a-424b-bdf8-8f127b222f90)
+![image](https://github.com/user-attachments/assets/1f16dc05-6dd0-4f1a-a8ed-53f0566bcfa4)
+![image](https://github.com/user-attachments/assets/80f44a05-6681-43f2-a200-0f4a86b14447)
 
-Show a few visualization of the data and say a few words about what you see.
+
+
 
 ### Problem Formulation
 
@@ -125,7 +129,7 @@ Show a few visualization of the data and say a few words about what you see.
   * The code runs efficiently on standard CPU hardware
 
 * **Steps**
-  1. Download dataset from Kaggle
+  1. Download dataset from Kaggle (https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
   2. Unzip and place in working directory
   3. Run the **airline_passenger_satisfaction.ipynb** to:
      * Preprocess data
@@ -145,24 +149,6 @@ Show a few visualization of the data and say a few words about what you see.
     !pip install matplotlib
     !pip install seaborn
     ``` 
-### Data
-
-* Point to where they can download the data.
-* Lead them through preprocessing steps, if necessary.
-
-### Training
-
-* Describe how to train the model
-
-#### Performance Evaluation
-
-* Describe how to run the performance evaluation.
-
-
-## Citations
-
-* Provide any references.
-
 
 
 
