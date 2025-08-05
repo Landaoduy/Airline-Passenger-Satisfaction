@@ -1,6 +1,6 @@
 ![UTA-DataScience-Logo](https://github.com/user-attachments/assets/6d626bcc-5430-4356-927b-97764939109d)
 
-# Airline-Passenger-Satisfaction
+# Airline Passenger Satisfaction
 * This repository presents a complete machine learning pipeline to classify airline passenger satisfaction levels using the Airline Passenger Satisfaction dataset, including data cleaning, feature engineering, model training, evaluation, and comparison.
 * Kaggle Challenge Link: https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
 
